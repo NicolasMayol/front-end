@@ -1,6 +1,6 @@
  Hola soy Nicolás Mayol, muchas gracias por tomarse el tiempo de leer esto.
 
-Este texto tiene como fin ser una rápida guia sobre la página.
+Este texto tiene como fin ser una rápida guía sobre la página.
 
 Primero debemos instalar todos nuestros modulos desde nuestra terminal con: " npm i ".
 
