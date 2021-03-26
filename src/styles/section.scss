@@ -1,0 +1,27 @@
+@import './prod.scss';
+
+.section{
+    background-color: #EEEEEE;
+    padding-bottom: 4.5rem;
+}
+    .desBusqueda{
+        padding-top: 16px;
+        margin-left: 12rem;
+        text-transform: capitalize;
+    }
+
+@media screen and (max-width: 768px){
+    .desBusqueda{
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .desBusqueda{
+    margin-left: 8px;
+    }
+    .section section{
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

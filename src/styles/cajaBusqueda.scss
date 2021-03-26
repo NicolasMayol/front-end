@@ -1,0 +1,43 @@
+.cajaBusqueda{
+    background-color: #FFE600;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+    .cajaBusqueda .inicioImg{
+        background-image: url(../buscador/Images/Logo_ML.png);
+        background-repeat: no-repeat;
+        background-color: #FFE600;
+        height: 36px;
+        width: 53px;
+        flex: 0 1 auto;
+        margin-right: 1rem;
+        outline: none;
+    }
+    .cajaBusqueda .buscador{
+        flex: 0 1 70%;
+        display: flex;
+    }
+        .cajaBusqueda .buscador .buscadorInput{
+            height: 100%;
+            width: 100%;
+            border: hidden;
+            background-color: white;
+            border-radius: 2px 0 0 2px;
+            font-size: 18px;
+            padding-left: 7px;
+            outline: none;
+        }
+        .cajaBusqueda .buscador .buscadorSubmit{
+            height: 100%;
+            width: 2rem;
+            border-radius: 0 2px 2px 0;
+            background-image: url(../buscador/Images/ic_Search.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #EEEEEE;
+            border: hidden;
+            outline: none;
+        }

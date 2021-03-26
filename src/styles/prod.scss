@@ -1,0 +1,97 @@
+.productos{
+    margin: 0 12rem;
+    margin-top: 16px;
+}
+.prod{
+    background-color: white;
+    color: black;
+}
+        .prod article{
+            padding: 16px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+
+            &:hover{
+                background-color:#f7f7f7;
+            }
+        }
+            .imgProd{
+                min-width: 180px;
+                min-height: 180px;
+                max-height: 180px;
+                min-width: 180px;
+                border-radius: 4px;
+                background-position: center;
+                align-self: stretch;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            }
+                .imgProd img{
+                    max-width: 180px;
+                    min-height: 180px;
+                    max-height: 180px;
+                }
+            .contProd{
+                flex: 1 1 auto;
+                align-self: center;
+                margin-left: 16px;
+                display: flex;
+                flex-flow: column nowrap;
+                font-size: 18px;
+            }
+            .precio{
+                margin: 1rem;
+                margin-left: 0%;
+                font-size: 24px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+            }
+            .ubicacion{
+                align-self: flex-start;
+                font-size: 12px;
+            }
+            .carship{
+                background-image: url(../buscador/Images/ic_shipping.png);
+                height: 22px;
+                width: 22px;
+                background-repeat: no-repeat;
+                margin-left: 10px;
+                margin-top: 4px;
+            }
+
+@media screen and (max-width: 768px){
+    .productos{
+        margin: 0 4rem;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .productos{
+        margin: 0 8px;
+        margin-top: 8px;
+    }
+    .precio{
+        font-size: 16px;
+    }
+    .ubicacion{
+        font-size: 8px;
+    }
+    .contProd{
+        font-size: 10px;
+    }
+    .imgProd{
+        min-width: 140px;
+        min-height: 140px;
+        max-height: 140px;
+        min-width: 140px;
+    }
+        .imgProd img{
+            max-width: 140px;
+            min-height: 140px;
+            max-height: 140px;
+        }
+}
